@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Портфолио</title>
+    <!-- Шрифты для стилей--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+    <header class="header">
+        <div class="navbar">
+    <nav class="navbar-nav">
+        <ul class="navbar-menu">
+
+            <li class="navbar-item">
+                <a href="#" class="navbar-links">DesignNest</a>
+                </li>
+
+            <li class="navbar-item">
+            <a href="#P1" class="navbar-link">Обо <br> мне</a>
+            </li>
+
+            <li class="navbar-item">
+            <a href="#P2" class="navbar-link">Мои <br>работы</a>
+            </li>
+
+            <li class="navbar-item">
+            <a href="#P3" class="navbar-link">Контакты</a>
+            </li>
+
+            <li class="navbar-item">
+                <a href="#P4" class="navbar-link">Заказать <br>услуги</a>
+            </li>
+        </ul>
+    </nav>    
+</div>
+    </header>
+      
+    <main>
+
+        <!--Блок 1-->
+        <div class="container">
+        <div class="block">
+            <h1>Вёрстка сайтов на HTML, CSS</h1>
+            <p>DesignNest</p>
+        </div>
+
+        <div class="about_us"> 
+            <p id="P1">Меня зовут Одина, я начинающий Frontend - разработчик. <br> Верстаю простые лендинги, и сложные сайты магазинов, <br> также верстаю по готовым макетам.</p>
+            <img src="img/undraw_button_style_re_uctt.svg" alt="">
+        </div>
+
+        <!--Блок 2-->
+        <div class="tools">
+            <h2>Редакторы</h2>
+            <div class="foto">
+            <img class="tools_img" src="img/css.png" alt="">
+            <img class="tools_img" src="img/figma.png" alt="">
+            <img class="tools_img" src="img/vscode.png" alt="">
+            <img class="tools_img" src="img/githab.png" alt="">
+          
+        </div>
+</div>
+        <!--Блок 3-->  
+        <h1 id="P2">МОИ РАБОТЫ</h1>
+        <div class="my_works">
+          <div class="website_element">
+            <a href=" https://odinam.github.io/bees/" target="_blank"><img src="content/website4.jpg" alt=""></a>
+        </div>
+
+            <div class="website_element">
+            <a href="https://odinam.github.io/My-first-website/" target="_blank"><img src="content/website1.jpg" alt=""></a>
+        </div>
+
+            <div class="website_element">
+            <a href="https://odinam.github.io/business-card/" target="_blank"><img src="content/website5.jpg" alt=""></a> 
+        </div>
+
+            <div class="website_element">
+            <a href="https://odinam.github.io/business-card-two/" target="_blank"><img src="content/website3.jpg" alt=""></a>
+            </div>
+
+            <div class="website_element">
+            <a href="https://odinam.github.io/nature/" target="_blank"><img src="content/website2.jpg" alt=""></a>
+        </div>
+    </div>
+        <!--Блок 4-->
+    <div class="contacts">
+        <h2 id="P3">Почта</h2>
+        <p id="P4">example@mail.ru</p>
+        <h2>Телефоны</h2>
+        <p>+79036792740</p>
+        <p>+79359026161</p>
+        <h2>Адрес</h2>
+        <p>г. Челябинск, ул. Ленина 213, <br>
+            офис 485</p>
+        <h2>Социальные сети</h2>
+        <p>@DesignNest</p>
+    </div>
+        <!--Блок 5-->
+                    <h1>Закать услуги</h1>
+        <div class="order_service">
+
+        <form action="#" id="contact-form">
+            <div class="form_item">
+                <label for="topic">Тема</label><br>
+                <select name="topic" id="topic">
+                <option value="1">Заказать услугу</option>
+                <option value="2">Оставить отзыв</option>
+                <option value="3">Предложить сотрудничество</option>
+                <option value="4">Другое</option>
+               </select>
+            </div>
+           <div class="form_item">
+               <label for="name">Имя</label><br>
+               <input name="name" id="name" type="text" placeholder="Имя" required>
+           </div>  
+
+           <div class="form_item">
+               <label for="date">Дата</label><br>
+               <input name="date" id="date" type="date" required>
+           </div>    
+
+           <div class="form_item">
+               <label for="tel">Телефон</label><br>
+               <input name="tel" id="tel" type="tel" placeholder="Телефон" required>
+           </div>
+
+           <div class="form_item">
+               <label for="email">E-mail</label><br>
+               <input name="email" id="email" type="email" placeholder="E-mail" required>
+           </div>
+
+           <div class="form_item">
+               <label for="textarea">Текстовое сообщение</label><br>
+               <textarea id="textarea" cols="30" rows="10" required></textarea>
+           </div>
+           <button>Отправить</button>
+       </form>
+    </div>
+    <!--Footer-Подвал-->
+    <footer>
+        <p> &copy; DesignNest</p>
+    </footer>
+
+</div>
+    </main>
+
+</div>
+</body>
+</html>
