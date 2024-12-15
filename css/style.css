@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;/*позволяет считать высоту и ширину*/
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+   
+}
+
+.wrapper{
+    width: 1500px;
+    margin: 30px auto;
+    
+    margin-bottom: 0px;
+}
+
+.header{
+    background-color: #D0D9D8;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 100PX;
+    font-size: 20PX;
+}
+
+.navbar{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    align-self: center;
+}
+
+.navbar-menu{
+    margin: 0px;/*отключает внешние отступы*/
+    padding: 0px;/*отключает внутренние отступы*/
+    list-style: none;/*отключает точки в списке*/
+    display: flex;/*выровняли элементы списка в строку*/
+    text-align: center;/*выровняли текст элементов по центру*/
+}
+
+.navbar-item{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-link:hover{
+    text-decoration: underline;
+}
+
+.navbar-links{
+    text-decoration: none;
+    color: black;
+    margin-right: 200px;
+}
+.navbar-text{
+    display: block; /*блочный элемент занимающий всю строку*/
+    color: black;
+    margin-bottom: 4px;/*отталкивает вниз телефон нижний отступ после фразы "Заказать звонок"*/
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.navbar-contacts{
+    text-align: right;
+}
+
+.navbar-phone{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/*Стили к body 1 блок*/
+.container{
+    margin-top:  0px auto;
+    margin-bottom: 0px auto;
+    padding-bottom: 40px;
+}
+
+.block{
+    background-color: #AFB4C7;
+    background-size: 100px;
+    margin: 0px auto;
+    height: 400px;  
+    padding-top: 50px;
+}
+
+.block h1{
+    text-transform: uppercase;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container p{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 80px;
+    padding-top: 20px;
+    color: black;
+    margin: 0px auto;
+}
+
+.about_us{
+    background-color: #AFB4C7;
+    background-size: 100px;
+    margin: 0px;
+    height: 650px;
+   }
+
+.about_us img{
+    max-width: 700px;
+    float: right;
+    padding-right: 80px;
+    padding-left: 20px;
+}
+
+.about_us p{
+    justify-content: right;
+    font-size: 30px;
+    padding: 20px;  
+}
+
+ /*Стили к body 2 блоку*/
+.tools{
+    background-color: #AFB4C7;
+    background-size: 100px;
+    margin: 0px;
+    height: 370px; 
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.foto{
+    display: flex;
+    max-width: 70px;
+    justify-content: center;  
+    padding-left: 750px;   
+}
+
+.tools h2{
+    padding: 30px;
+    font-size: 40px;
+    padding-left: 50px;
+    text-align: center;
+    background-color: #AFB4C7;
+}
+.tools_img{
+    max-width: 300px;
+    padding: 100px;
+    padding-top: 10px;
+    justify-content: center;
+}
+ /*Стили к body 3 блоку*/
+ h1{
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.my_works{
+    padding-top: 20px;
+    display: flex;
+    background-color: #AFB4C7;
+    background-size: 100px;
+    height: 500px; 
+    justify-content: space-evenly;
+    margin-top: 0px auto;
+    padding-bottom: 60px;
+    padding-top: 80px;
+}
+
+.website_element img{
+    padding: 20px;
+    background-size: 100px;
+    display: flex;
+    max-width: 250px; 
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 100px; 
+}
+ /*Стили к body 4 блоку*/
+ .contacts{
+    padding-top: 10px;
+    text-align: center;
+    border: 5px solid  none;
+    background-color: #AFB4C7;
+    padding-bottom: 90px;
+}
+
+.contacts h2{
+    text-align: center;
+    text-transform: uppercase;
+    border: 5px solid  none;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.contacts p{
+    text-align: center;
+    color: #0D58A6;
+    padding: 10px;
+    font-weight: bold;
+    font-weight: 600;
+    font-style: italic;
+}
+.contacts a{
+    text-align: center;
+    color: #0D58A6;
+    font-weight: bold;
+    font-style: italic;
+}
+ /*Стили к body 5 блоку*/
+ .order_service{
+    display: flex;
+    background-color: #AFB4C7;
+    background-size: 100px;
+    margin: 0px;
+    height: 770px;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .order_service h1{
+    text-align: center;
+    padding-top: 0px ;
+
+ }
+ 
+.form{
+    text-align: center;
+    font-style: italic;
+}
+
+#contact-form input[type="name"]{
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 16px;
+    border: 3px solid #9C8CB9;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9C8CB9;
+}
+
+#contact-form input[type="date"]{
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 16px;
+    border: 3px solid #9C8CB9;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9C8CB9;
+}
+
+#contact-form input[type="tel"]{
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 16px;
+    border: 3px solid #9C8CB9;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9C8CB9;
+}
+
+#contact-form input[type="email"]{
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 16px;
+    border: 3px solid #9C8CB9;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9C8CB9;
+}
+
+#contact-form textarea[type="text"]{
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 16px;
+    border: 3px solid #9C8CB9;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9C8CB9;
+}
+
+.form button{
+    background-color: #689CD2;
+    padding: 10px;
+    border-radius: 50px;
+    border: 3px solid #9C8CB9;
+    font-size: 50px;
+    color: aliceblue;
+    font-style: italic;    
+}
+
+.form button:hover {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    border: 3px soli#0D58A6;
+    font-style: italic;
+}
+/*Стили к Footery*/
+footer{
+    padding: 30px 0 ;
+    text-align: left;
+    color: black;
+    text-align: center;
+    background-color: #D0D9D8;
+    padding-right: 120px;  
+}
